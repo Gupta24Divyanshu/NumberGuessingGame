@@ -126,10 +126,15 @@ After 5 attempts or a correct guess, user can reset the game.
 ## 💡 Future Improvements
 
 🎯 Add difficulty levels (Easy, Medium, Hard)
+
 🧠 Add guess history on screen
+
 💾 Track high scores with localStorage
+
 🔁 Add timer for challenge mode
+
 🎨 Use animations and sound effects
+
 🌍 Convert to multilingual UI
 
 ---
