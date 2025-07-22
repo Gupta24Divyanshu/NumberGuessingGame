@@ -23,6 +23,13 @@
 ---
 
 ## 🖼️ Screenshots
+![image](https://github.com/Gupta24Divyanshu/NumberGuessingGame/blob/main/NumberGuessingGame_backend/Images%20and%20Videos/Screenshot%20(141).png)
+![image](https://github.com/Gupta24Divyanshu/NumberGuessingGame/blob/main/NumberGuessingGame_backend/Images%20and%20Videos/Screenshot%20(142).png)
+![image](https://github.com/Gupta24Divyanshu/NumberGuessingGame/blob/main/NumberGuessingGame_backend/Images%20and%20Videos/Screenshot%20(143).png)
+![image](https://github.com/Gupta24Divyanshu/NumberGuessingGame/blob/main/NumberGuessingGame_backend/Images%20and%20Videos/Screenshot%20(144).png)
+![image](https://github.com/Gupta24Divyanshu/NumberGuessingGame/blob/main/NumberGuessingGame_backend/Images%20and%20Videos/Screenshot%20(145).png)
+![image](https://github.com/Gupta24Divyanshu/NumberGuessingGame/blob/main/NumberGuessingGame_backend/Images%20and%20Videos/Screenshot%20(146).png)
+![image](https://github.com/Gupta24Divyanshu/NumberGuessingGame/blob/main/NumberGuessingGame_backend/Images%20and%20Videos/Screenshot%20(147).png)
 
 ---
 
@@ -38,11 +45,8 @@ Frontend sends guess using fetch() → Backend validates and responds → Fronte
 ---
 
 ## 🗂️ Project Structure
-G:\
-└── Codveda\
-    └── level_1\
-        └── Task_2\
-            ├── NumberGuessingGame\
+
+            NumberGuessingGame\
             │   ├── frontend\
             │   │   ├── index.html
             │   │   ├── style.css
