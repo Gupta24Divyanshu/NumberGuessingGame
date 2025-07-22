@@ -9,10 +9,15 @@
 ## 🔧 Features
 
 🎲 Random number is generated between 1 and 100.
+
 ⌛ User has only 5 unique guesses to find the number.
+
 📢 Immediate feedback: "Too high", "Too low", "Correct".
+
 ⚠️ Repeated guesses are not allowed.
+
 🔄 Reset button starts a new game with a fresh number.
+
 🛑 After 5 attempts, the correct answer is revealed.
 
 ---
