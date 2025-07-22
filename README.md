@@ -75,33 +75,35 @@ Frontend sends guess using fetch() → Backend validates and responds → Fronte
 
 ---
 
+## ▶️ Steps to Run the Application
 
+### ✅ Start Backend (Spring Boot)
 
-▶️ Steps to Run Application
-
-✅ Start Backend (Spring Boot)
-
-cd G:\Codveda\level_1\Task_2\NumberGuessingGame\backend
-
+```bash
+cd D:\Codveda\level_1\Task_2\NumberGuessingGame\backend
 mvn spring-boot:run
+```
 
-Default Port: 8080 To change port:
+* 🔧 **Default Port**: `8080`
+* To change the port, edit `application.properties`:
 
-# application.properties
-
+```properties
 server.port=8081
+```
 
-✅ Start Frontend (Live Server)
+---
 
-cd G:\Codveda\level_1\Task_2\NumberGuessingGame\frontend
+### ✅ Start Frontend (Live Server)
 
-npm init -y                   # Run once
-
+```bash
+cd D:\Codveda\level_1\Task_2\NumberGuessingGame\frontend
+npm init -y                      # Run once to initialize npm
 npm install live-server --save-dev
-
 npx live-server
+```
 
-Open in browser at: http://localhost:5500/
+* 🌐 Open your browser and visit:
+  [http://localhost:5500](http://localhost:5500)
 
 ---
 
