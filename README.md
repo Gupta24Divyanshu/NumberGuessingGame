@@ -80,7 +80,7 @@ Frontend sends guess using fetch() → Backend validates and responds → Fronte
 ### ✅ Start Backend (Spring Boot)
 
 ```bash
-cd D:\Codveda\level_1\Task_2\NumberGuessingGame\backend
+cd G:\Codveda\level_1\Task_2\NumberGuessingGame\backend
 mvn spring-boot:run
 ```
 
@@ -96,7 +96,7 @@ server.port=8081
 ### ✅ Start Frontend (Live Server)
 
 ```bash
-cd D:\Codveda\level_1\Task_2\NumberGuessingGame\frontend
+cd G:\Codveda\level_1\Task_2\NumberGuessingGame\frontend
 npm init -y                      # Run once to initialize npm
 npm install live-server --save-dev
 npx live-server
