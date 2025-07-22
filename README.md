@@ -59,7 +59,7 @@ G:\
             │       ├── pom.xml
             │       └── application.properties
 
-----
+---
             
 ## 🧰 Technology Stack
 
