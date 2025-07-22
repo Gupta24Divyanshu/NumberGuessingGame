@@ -27,6 +27,7 @@ The application follows a **client-server architecture**:
 
 - **Frontend (Client)**: HTML5, CSS3, JavaScript  
 - **Backend (Server)**: Java, Spring Boot, REST API
+  
 Frontend sends guess using fetch() → Backend validates and responds → Frontend displays result
 
 ---
