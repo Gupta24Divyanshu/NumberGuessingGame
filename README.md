@@ -93,12 +93,19 @@ Open in browser at: http://localhost:5500/
 ## 🔍 How It Works
 
 User starts the game with the Start Game button.
+
 A number is generated in the backend using Random.
+
 User submits a guess from the frontend.
+
 Backend validates and checks:
+
 Is it within range?
+
 Has it been guessed before?
+
 Is it correct?
+
 Response is shown instantly with number of attempts left.
 
 After 5 attempts or a correct guess, user can reset the game.
