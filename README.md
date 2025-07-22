@@ -1,6 +1,12 @@
-🎮 Codveda Internship Project - Level 1 Task 2
+# 🔢 Number Guessing Game using Spring Boot
 
-🔧 Features / User Stories
+
+
+> 🚀 Codveda Internship Project – Level 1 Task 1
+
+---
+
+## 🔧 Features
 
 🎲 Random number is generated between 1 and 100.
 ⌛ User has only 5 unique guesses to find the number.
@@ -9,27 +15,23 @@
 🔄 Reset button starts a new game with a fresh number.
 🛑 After 5 attempts, the correct answer is revealed.
 
-🖼️ Screenshots
-Game Start:
-Start
+---
 
-Guess Feedback:
-Feedback Feedback Feedback Feedback
+## 🖼️ Screenshots
 
-Game Over:
-Start
+---
 
-After Reset:
-Reset
+## 🖥️ System Architecture
 
-🖥️ System Design
-Follows a simple Client-Server architecture.
+The application follows a **client-server architecture**:
 
-Frontend: HTML, CSS, JavaScript
-Backend: Java, Spring Boot, REST API
+- **Frontend (Client)**: HTML5, CSS3, JavaScript  
+- **Backend (Server)**: Java, Spring Boot, REST API
 Frontend sends guess using fetch() → Backend validates and responds → Frontend displays result
 
-🗂️ Project Structure
+---
+
+## 🗂️ Project Structure
 G:\
 └── Codveda\
     └── level_1\
@@ -51,12 +53,17 @@ G:\
             │       ├── pom.xml
             │       └── application.properties
 
+----
             
-🧰 Technology Stack
-Area	              Tech Stack
-Frontend          	React.js, HTML5, CSS3, JavaScript
-Backend	            Java 21, Spring Boot 3.5.3, Maven
-Tools	              VS Code, Git, GitHub, npm, Live Server
+## 🧰 Technology Stack
+
+| Area       | Tech Stack                             |
+|------------|----------------------------------------|
+| Frontend   | HTML5, CSS3, JavaScript                |
+| Backend    | Java 21, Spring Boot 3.5.3, Maven      |
+| Tools      | VS Code, Git, GitHub, npm, Live Server |
+
+---
 
 
 API Format	REST APIs using JSON
@@ -75,15 +82,14 @@ npm install live-server --save-dev
 npx live-server
 Open in browser at: http://localhost:5500/
 
-🔍 How It Works
+---
+
+## 🔍 How It Works
+
 User starts the game with the Start Game button.
-
 A number is generated in the backend using Random.
-
 User submits a guess from the frontend.
-
 Backend validates and checks:
-
 Is it within range?
 Has it been guessed before?
 Is it correct?
@@ -91,7 +97,10 @@ Response is shown instantly with number of attempts left.
 
 After 5 attempts or a correct guess, user can reset the game.
 
-💡 Future Enhancements
+---
+
+## 💡 Future Improvements
+
 🎯 Add difficulty levels (Easy, Medium, Hard)
 🧠 Add guess history on screen
 💾 Track high scores with localStorage
@@ -99,7 +108,12 @@ After 5 attempts or a correct guess, user can reset the game.
 🎨 Use animations and sound effects
 🌍 Convert to multilingual UI
 
+---
 
-🙋‍♂️ Author
-Name	GitHub	LinkedIn	Email
-Divyanshu Gupta	DivyanshuGitHub	LinkedIn	youremail@example.com
+## 🙋‍♂️ Author
+
+| Name            | GitHub                                        | LinkedIn                                                    | Email                                                             |
+| --------------- | --------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------- |
+| Divyanshu Gupta | [GitHub](https://github.com/Gupta24Divyanshu) | [LinkedIn](https://linkedin.com/in/divyanshu-gupta-dev670/) | [divyanshugupta670@gmail.com](mailto:divyanshugupta670@gmail.com) |
+
+---
