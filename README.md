@@ -76,18 +76,25 @@ G:\
 ▶️ Steps to Run Application
 
 ✅ Start Backend (Spring Boot)
+
 cd G:\Codveda\level_1\Task_2\NumberGuessingGame\backend
+
 mvn spring-boot:run
 
 Default Port: 8080 To change port:
 
 # application.properties
+
 server.port=8081
 
 ✅ Start Frontend (Live Server)
+
 cd G:\Codveda\level_1\Task_2\NumberGuessingGame\frontend
+
 npm init -y                   # Run once
+
 npm install live-server --save-dev
+
 npx live-server
 
 Open in browser at: http://localhost:5500/
